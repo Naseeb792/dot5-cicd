@@ -1,7 +1,3 @@
-from app import index
-from app import featurey
-from app import featurex
-from app import featurez
 
 def test_index():
     assert index() == "Hello, world!"
