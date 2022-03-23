@@ -10,7 +10,5 @@ def index():
 def featurex():
     return 'feature-x'
 
-
-
 if __name__ == "__main__":
     app.run()
