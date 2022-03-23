@@ -7,5 +7,9 @@ def index():
     return "Hello, world!"
 
 
+@app.route('/feature-x')
+def featurex():
+    return 'feature-x'
+
 if __name__ == "__main__":
     app.run()
